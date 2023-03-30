@@ -1,1 +1,123 @@
-/* CSS Files */
+/* TAG Selectors */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+/* Card Dimensions */
+
+.card {
+    width: 50rem;
+    height: 28rem;
+    display: flex;
+}
+
+/* Card Item Styles */
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card-item img {
+    width: 65px;
+}
+
+.card-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Card Item background colors */
+
+.card-sedan {
+    background-color: #E28525;
+}
+
+.card-suv {
+    background-color: #006972;
+}
+
+.card-luxury {
+    background-color: #00403F;
+}
+
+/* Card Item Text colors */
+
+.card-sedan-text {
+    color: #f4d4b4;
+}
+
+.card-suv-text {
+    color: #77c1c7;
+}
+
+.card-luxury-text {
+    color: #349190;
+}
+
+/* Card Item Button text colors */
+
+.btn-sedan {
+    color: #E28525;
+}
+
+.btn-suv {
+    color: #006972;
+}
+
+.btn-luxury {
+    color: #00403F;
+}
+
+/* Button Style */
+
+.btn {
+    background-color: white;
+    border-radius: 3rem;
+    border: 2px solid white;
+    white-space: nowrap;
+    cursor: pointer;
+    align-self: flex-start;
+    padding: 0.7rem 1.5rem;
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    opacity: 2;
+}
+
+/* Footer Style */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
